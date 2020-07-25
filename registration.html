@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Registration</h1>
+    <form action="mainpage.html" method="post" id="form1">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name.">
+      </div>
+      &nbsp;
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email here.">
+      </div>
+      &nbsp;
+      <div>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="India" selected>India</option>
+          <option value="UK">UK</option>
+          <option value="US">US</option>
+          <option value="Canada">Canada</option>
+          <option value="China">China</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Australia">Australia</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+          <option value="Germany">Germany</option>
+        </select>
+      </div>
+      &nbsp;
+      <div>
+        <label for="mono">Contact No.</label>
+        <input type="text" name="mono" placeholder="Enter your 10 digit contact number.">
+      </div>
+      &nbsp;
+      <div>
+        <span>
+          <input type="radio" name="job" id="give" value="give">
+          <label for="give">I want to hire!</label>
+        </span>
+        <span>
+          <input type="radio" name="job" id="seek" value="seek">
+          <label for="seek">I want a job!</label>
+        </span>
+      </div>
+      &nbsp;
+      <div>
+        <label for="jobtitle">Select Interested Job</label>
+        <select id="jobtitle" name="jobtitle">
+          <option value="FrontEnd Developer">FrontEnd Developer</option>
+          <option value="BackEnd Developer">BackEnd Developer</option>
+          <option value="FullStack Developer">FullStack Developer</option>
+          <option value="UI/UX Designer">UI/UX Designer</option>
+          <option value="Android Developer">Android Developer</option>
+          <option value="Software Developer">Software Developer</option>
+          <option value="Ethical Hacker">Ethical Hacker</option>
+        </select>
+      </div>
+      &nbsp;
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" value="" placeholder="Enter password">
+      </div>
+      &nbsp;
+      <div>
+        <label for="confirm">Confirm Password</label>
+        <input type="password" id="confirm" placeholder="Confirm password" value="">
+      </div>
+    </form>
+    <br>
+    <button type="submit" name="submit" id="submit" form="form1" value="Submit">Submit</button>
+
+  </body>
+</html>
